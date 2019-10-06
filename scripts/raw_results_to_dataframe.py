@@ -6,7 +6,8 @@ import os
 from functools import reduce
 
 def raw_results_to_dataframe(infile_path, outdir_path,
-	per_subject=False):
+	per_subject=False
+	):
 	"""Takes the path to a raw_results files from an Ibexfarm
 	experiment and the path to the directory where the output file(s)
 	will be written.

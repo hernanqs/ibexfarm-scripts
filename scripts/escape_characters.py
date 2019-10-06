@@ -48,7 +48,7 @@ __spanish_unicode_escape_map__ = {
 
 def escape_characters(infile_path, outfile_path,
 	escape_map=__spanish_unicode_escape_map__
-):
+	):
 	"""Takes the path to the original file, the path for the
 	output file (including the file extension) and a dictionary
 	mapping from characters to escape characters (defaults to
